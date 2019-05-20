@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[RetrofitLog--> --> GET https://movie.douban.com/j/search_tags?type=movie&source=index]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> --> END GET]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> <-- 200 OK https://movie.douban.com/j/search_tags?type=movie&source=index (463ms)]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Date: Mon, 20 May 2019 02:04:31 GMT]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Content-Type: application/json; charset=utf-8]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Transfer-Encoding: chunked]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Connection: keep-alive]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Keep-Alive: timeout=30]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> X-Xss-Protection: 1; mode=block]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> X-Douban-Mobileapp: 0]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Expires: Sun, 1 Jan 2006 01:00:00 GMT]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Pragma: no-cache]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Cache-Control: must-revalidate, no-cache, private]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Set-Cookie: bid=fqd4qWmbXrs; Expires=Tue, 19-May-20 02:04:31 GMT; Domain=.douban.com; Path=/]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> X-DOUBAN-NEWBID: fqd4qWmbXrs]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> X-DAE-Node: anson47]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> X-DAE-App: movie]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Server: dae]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> X-Content-Type-Options: nosniff]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> ]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> {"tags":["热门","最新","豆瓣高分","冷门佳片","华语","欧美","韩国","日本"]}]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> <-- END HTTP (94-byte body)]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> --> GET https://movie.douban.com/j/search_tags?type=tv&source=index]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> --> END GET]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> <-- 200 OK https://movie.douban.com/j/search_tags?type=tv&source=index (71ms)]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Date: Mon, 20 May 2019 02:04:32 GMT]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Content-Type: application/json; charset=utf-8]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Transfer-Encoding: chunked]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Connection: keep-alive]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Keep-Alive: timeout=30]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> X-Xss-Protection: 1; mode=block]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> X-Douban-Mobileapp: 0]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Expires: Sun, 1 Jan 2006 01:00:00 GMT]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Pragma: no-cache]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Cache-Control: must-revalidate, no-cache, private]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Set-Cookie: bid=pTezdPzidiI; Expires=Tue, 19-May-20 02:04:32 GMT; Domain=.douban.com; Path=/]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> X-DOUBAN-NEWBID: pTezdPzidiI]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> X-DAE-Node: anson34]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> X-DAE-App: movie]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Server: dae]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> X-Content-Type-Options: nosniff]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> ]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> {"tags":["热门","国产剧","综艺","美剧","日剧","韩剧","日本动画","纪录片"]}]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> <-- END HTTP (94-byte body)]]>
+    </line>
+  </reporter-output>
+  <suite name="接口测试集合" duration-ms="0" started-at="2019-05-20T02:04:33Z" finished-at="2019-05-20T02:04:33Z">
+    <groups>
+    </groups>
+  </suite> <!-- 接口测试集合 -->
+  <suite name="search_tags-搜索分类-测试集合" duration-ms="1500" started-at="2019-05-20T02:04:31Z" finished-at="2019-05-20T02:04:32Z">
+    <groups>
+    </groups>
+    <test name="搜索分类 接口" duration-ms="1500" started-at="2019-05-20T02:04:31Z" finished-at="2019-05-20T02:04:32Z">
+      <class name="com.jxq.douban.SearchTagsTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.jxq.douban.SearchTagsTest@1baf4f0]" name="beforeSuite" is-config="true" duration-ms="304" started-at="2019-05-20T10:04:30Z" finished-at="2019-05-20T10:04:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="testcase1()[pri:0, instance:com.jxq.douban.SearchTagsTest@1baf4f0]" name="testcase1" duration-ms="1362" started-at="2019-05-20T10:04:31Z" description="电影首页。类别:type=movie source=index" finished-at="2019-05-20T10:04:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[RetrofitLog--> --> GET https://movie.douban.com/j/search_tags?type=movie&source=index]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> --> END GET]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> <-- 200 OK https://movie.douban.com/j/search_tags?type=movie&source=index (463ms)]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Date: Mon, 20 May 2019 02:04:31 GMT]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Content-Type: application/json; charset=utf-8]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Transfer-Encoding: chunked]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Connection: keep-alive]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Keep-Alive: timeout=30]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> X-Xss-Protection: 1; mode=block]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> X-Douban-Mobileapp: 0]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Expires: Sun, 1 Jan 2006 01:00:00 GMT]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Pragma: no-cache]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Cache-Control: must-revalidate, no-cache, private]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Set-Cookie: bid=fqd4qWmbXrs; Expires=Tue, 19-May-20 02:04:31 GMT; Domain=.douban.com; Path=/]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> X-DOUBAN-NEWBID: fqd4qWmbXrs]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> X-DAE-Node: anson47]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> X-DAE-App: movie]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Server: dae]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> X-Content-Type-Options: nosniff]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> ]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> {"tags":["热门","最新","豆瓣高分","冷门佳片","华语","欧美","韩国","日本"]}]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> <-- END HTTP (94-byte body)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method status="PASS" signature="testcase2()[pri:0, instance:com.jxq.douban.SearchTagsTest@1baf4f0]" name="testcase2" duration-ms="87" started-at="2019-05-20T10:04:32Z" description="Tv首页。类别:type=tv source=index" finished-at="2019-05-20T10:04:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[RetrofitLog--> --> GET https://movie.douban.com/j/search_tags?type=tv&source=index]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> --> END GET]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> <-- 200 OK https://movie.douban.com/j/search_tags?type=tv&source=index (71ms)]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Date: Mon, 20 May 2019 02:04:32 GMT]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Content-Type: application/json; charset=utf-8]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Transfer-Encoding: chunked]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Connection: keep-alive]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Keep-Alive: timeout=30]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> X-Xss-Protection: 1; mode=block]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> X-Douban-Mobileapp: 0]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Expires: Sun, 1 Jan 2006 01:00:00 GMT]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Pragma: no-cache]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Cache-Control: must-revalidate, no-cache, private]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Set-Cookie: bid=pTezdPzidiI; Expires=Tue, 19-May-20 02:04:32 GMT; Domain=.douban.com; Path=/]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> X-DOUBAN-NEWBID: pTezdPzidiI]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> X-DAE-Node: anson34]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> X-DAE-App: movie]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Server: dae]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> X-Content-Type-Options: nosniff]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> ]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> {"tags":["热门","国产剧","综艺","美剧","日剧","韩剧","日本动画","纪录片"]}]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> <-- END HTTP (94-byte body)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testcase2 -->
+      </class> <!-- com.jxq.douban.SearchTagsTest -->
+    </test> <!-- 搜索分类 接口 -->
+  </suite> <!-- search_tags-搜索分类-测试集合 -->
+</testng-results>
