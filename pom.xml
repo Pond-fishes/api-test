@@ -133,7 +133,6 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.22.0</version>
                 <configuration>
-			<testFailureIgnore>true</testFailureIgnore>
                     <!--为了解决在jenkins maven执行test 报告乱码问题，编码格式设置为UTF-8-->
                     <argLine>-Dfile.encoding=UTF-8</argLine>
                     <encoding>UTF-8</encoding>
