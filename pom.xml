@@ -43,6 +43,9 @@
             <artifactId>okhttp</artifactId>
             <version>3.10.0</version>
         </dependency>
+	    
+	
+	    
         <!-- https://mvnrepository.com/artifact/com.squareup.okhttp3/logging-interceptor -->
         <dependency>
             <groupId>com.squareup.okhttp3</groupId>
@@ -50,6 +53,15 @@
             <version>3.10.0</version>
         </dependency>
         
+	    
+	<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+	    <dependency>
+		<groupId>org.testng</groupId>
+		<artifactId>testng</artifactId>
+		<version>6.14.2</version>
+		<!--<scope>test</scope>-->
+		<!--作用范围，默认是test。验证部分被抽象，不仅test作用域需使用-->
+	    </dependency>
         
 
         <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
